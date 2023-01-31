@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8f9;
     font-family: "Poppins", sans-serif;
 }
 
 header{
+    background-color: #ffffff;
     height: 70px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -19,4 +24,38 @@ header{
 .title{
     display: inline-block;
     vertical-align: middle;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 900px;
+}
+
+.navigation{
+    padding: 25px 0px 15px 70px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 50px auto 3px;
+}
+
+.list{
+    padding: 40px 0px 50px 70px;
+    margin: 0px auto 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.task{
+    background-color: #47adf1;
+    color: #ffffff;
+}
+
+.section{
+    color: #c5cbd0;
+    border: 1px solid #c5cbd0;
 }
