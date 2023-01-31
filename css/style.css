@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.title{
+    display: inline-block;
+    vertical-align: middle;
+}
