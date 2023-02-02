@@ -29,7 +29,7 @@ header{
 
 .container{
     background-color: #ffffff;
-    width: 900px;
+    width: 70%;
 }
 
 .navigation{
@@ -44,24 +44,25 @@ header{
     border-radius: 5px;
 }
 
-.task{
+.add-task{
     background-color: #47adf1;
     color: #ffffff;
+    border: 1px solid #47adf1;
 }
 
-.section{
+.add-section{
     color: #c5cbd0;
     border: 1px solid #c5cbd0;
 }
 
-.list{
+.tasks{
     padding: 10px 0px 50px 70px;
     margin: 0px auto 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
-.list h2{
+.tasks h2{
     margin-top: 40px;
 }
 
@@ -82,8 +83,8 @@ header{
     border: 2px solid #ea4237;
 }
 
-/* List titles */
-.list p{
+/* Tasks titles */
+.tasks p{
     margin-top: 30px;
 }
 
